@@ -170,7 +170,8 @@ fill(0, 0, 0);
 } 
 
 
-/*import processing.serial.*;
+/*
+import processing.serial.*;
 import cc.arduino.*;
 Arduino arduino;
 
@@ -240,13 +241,13 @@ public void draw() {
   if (increasing == true) {a += 0.01;}
   if (increasing == false) {a -= 0.01;}
   
-  /*
-  stroke(0);
-  line(100, 350, munchlax*100+100, 350);
-  translate(200, 150);
-  ellipse(0, 0, r, r);
-  translate(-200, -150);
-  */
+  
+  //stroke(0);
+  //line(100, 350, munchlax*100+100, 350);
+  //translate(200, 150);
+  //ellipse(0, 0, r, r);
+  //translate(-200, -150);
+  
   
   if (dark == true) {r += 0.25;}
   if (dark == false) {r = 0; r_exp_var = 0;}
