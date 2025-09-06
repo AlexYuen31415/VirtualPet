@@ -170,6 +170,8 @@ fill(0, 0, 0);
 } 
 
 
+//Arduino Animated Virtual Pet
+
 /*
 import processing.serial.*;
 import cc.arduino.*;
